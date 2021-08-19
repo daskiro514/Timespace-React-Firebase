@@ -1,0 +1,39 @@
+// Here you can add other styles
+.page-header {
+	h1 {
+		font-size: 2.052rem;
+	}
+}
+
+html:not([dir="rtl"])
+	.checkboxLeftPadding
+	.custom-checkbox
+	.custom-control-label::after {
+	left: -1.1rem;
+}
+.table {
+	.checkboxLeftPadding {
+		padding-left: 2.5rem;
+	}
+}
+.mkPosition_absolute {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+.c-body {
+	background: #f5f6f8;
+}
+
+.custom_labelFile::after {
+	opacity: 0;
+}
+
+thead.bg-dark {
+	background-color: #3c4b64 !important;
+}
+.customToggleBtn .custom-control-label::after {
+	left: 1.4rem !important;
+}
